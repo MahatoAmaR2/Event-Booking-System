@@ -1,12 +1,25 @@
-# React + Vite
+# Event Booking System UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔍 Overview
+A responsive UI for booking events, with calendar integration and interactive form.
 
-Currently, two official plugins are available:
+## 💡 Features
+- Date selection via calendar
+- Booking form with validation
+- Responsive design for all devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
+1. Clone the repo
+2. Run npm install
+3. Run npm run dev
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- React
+- TailwindCSS
+- Reac-datepicker
+- React Hook Form
+- Vercel for deployment
+
+## 🌐 Live Link
+[Deployed Site](https://event-booking-system-theta.vercel.app/)
