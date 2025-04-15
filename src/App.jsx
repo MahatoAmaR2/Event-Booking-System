@@ -1,10 +1,10 @@
 import "./App.css";
-
+import AllRoutes from "./routes/AllRoutes";
 
 function App() {
   return (
     <>
-     <h1 className="text-amber-200">Har Har Mahadev</h1>
+      <AllRoutes />
     </>
   );
 }
