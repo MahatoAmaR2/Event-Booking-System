@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import Navbar from "../components/navbar/Navbar";
+import Events from "../components/event/Events";
 import "../style/Home.css";
-
+import Host from "./Host";
+import Footer from "../components/footer/Footer";
 const Home = () => {
   return (
     <>
@@ -40,6 +42,16 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div>
+        <Events />
+      </div>
+      <div>
+        <Host />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );
